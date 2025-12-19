@@ -1,0 +1,11 @@
+<ul>
+    <li>
+    Место: {{ posts.location }}             
+    </li>
+    <li>
+    Дата: {{ posts.date }}
+    </li>
+    <li>
+    Категория: <a href="{% url 'blog:category_posts' posts.category %}">{{ posts.category }}</a>
+    </li>
+</ul>
