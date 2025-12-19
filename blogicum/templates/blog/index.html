@@ -8,7 +8,7 @@
   {% for post in posts %}
     <hr>
       <article>
-        {% include 'blog/post_card.html' %}
+        {% include 'includes/post_card.html' %}
         <p>
           {{ post.text|truncatewords:10 }} 
         </p>
